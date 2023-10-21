@@ -1,4 +1,4 @@
-pkgname=ally-motion-evdev
+pkgname=rog-ally-motion-evdev
 pkgver=1.0.0
 pkgrel=1
 pkgdesc='Exposes bmi323 chip over an evdev interface'
