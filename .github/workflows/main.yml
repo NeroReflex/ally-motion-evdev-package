@@ -26,8 +26,6 @@ jobs:
           mkdir /home/build/pkg
           cp -v * /home/build/pkg/
           chown -vR build /home/build/pkg
-          rm /home/build/pkg/.SRCINFO
-          rm /home/build/pkg/.gitignore
           rm /home/build/pkg/README.md
       - name: Set up pacman keyring
         run: |
