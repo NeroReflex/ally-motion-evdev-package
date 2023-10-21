@@ -9,7 +9,7 @@ depends=()
 makedepends=('cmake')
 provides=('ally-motion-evdev')
 source=(
-    "git+https://github.com/NeroReflex/ally-motion-evdev.git"
+    "ally-motion-evdev::git+https://github.com/NeroReflex/ally-motion-evdev.git"
     "ally-motion-evdev.service"
     "10-ally-motion-evdev.rule"
 )
@@ -20,15 +20,15 @@ sha256sums=(
 )
 
 prepare() {
-    cd "${pkgname}"
-    #mkdir "${pkgname}/build"
+    cd "ally-motion-evdev"
+    #mkdir "ally-motion-evdev/build"
     cd ..
 }
 
 build() {
     cmake \
         -B build \
-        -S "${pkgname}" \
+        -S "ally-motion-evdev" \
         -G 'Unix Makefiles' \
         -DCMAKE_BUILD_TYPE:STRING='Release' \
         -DCMAKE_INSTALL_PREFIX:PATH='/usr' \
