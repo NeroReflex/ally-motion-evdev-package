@@ -15,7 +15,7 @@ jobs:
         uses: ouuan/pkgbuild-action@master
         id: build-package
         with:
-          path: rog-ally-motion-evdev
+          path: .
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
         with:
