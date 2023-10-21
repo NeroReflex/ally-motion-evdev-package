@@ -10,5 +10,7 @@ systemctl --user enable ally-motion-evdev
 ```
 
 ## Contributions
-A big thanks goes to [TwinHaelix](https://github.com/KWottrich) that has modified the original package to provide all of us this good stuff <3
-Another big thanks goes to WarlockLord that has written the systemd service file to run this program as a user service allowing the usage in game mode (Nintendo) emulators
+A big thank goes to everybody involved:
+  - The original software for showing us the way to go
+  - [TwinHaelix](https://github.com/KWottrich) for modifying the original package to provide all of us this good stuff <3
+  - WarlockLord has written the systemd service file to run this program as a user service allowing the usage in game mode (Nintendo) emulators
