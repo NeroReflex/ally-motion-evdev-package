@@ -15,7 +15,7 @@ source=(
 )
 sha256sums=(
     'SKIP'
-    '671fe7b32afc16237c758e8f6c69231548a3548c8685f3c74a43e015096c32be' # ally-motion-evdev.service
+    'b4eaf36b99d0565d31d77d1a3872fb5eae94075dc078b8ccf137634a39232dd6' # ally-motion-evdev.service
     '6954a9e1c614be8ff7ebf5456713d31735f1d3b0dfc92365e2c378ca3e99de6d' # 10-ally-motion-evdev.rule
 )
 
