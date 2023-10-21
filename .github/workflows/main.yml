@@ -72,7 +72,7 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
-          name: pkg-download-artifacts
+          name: pkg-upload
           path: ${{ env.PKGDEST }}
       - name: Make release
         uses: softprops/action-gh-release@v1
