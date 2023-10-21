@@ -1,0 +1,12 @@
+[Unit]
+Description=ally-motion-evdev gyro service
+After=network.target
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+User=gamer
+WorkingDirectory=/usr/bin
+ExecStart=/usr/bin/ally-motion-evdev
+[Install]
+WantedBy=multi-user.target
